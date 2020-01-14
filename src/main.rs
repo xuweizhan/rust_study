@@ -91,20 +91,7 @@ fn arr() {
 
     // 数组
     //  -> 数组的长度是不允许发生改变的 且 必须是相同类型的值
-    let months = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December",
-    ];
+    let months = ["January", "February", "March", "April", "May"];
     let a: [i32; 5] = [1, 2, 3, 4, 5];
     let b = [5; 7];
     println!("arr -> {}", months[0]);
